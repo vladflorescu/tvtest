@@ -21,7 +21,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>8</java.version>
+		<java.version>9</java.version>
 	</properties>
 
 	<dependencies>
@@ -66,6 +66,9 @@
 					<!--<targetTests>-->
 						<!--<param>com.your.package.root*</param>-->
 					<!--</targetTests>-->
+					<mutators>
+						<mutator>MATH</mutator>
+					</mutators>
 				</configuration>
 			</plugin>
 		</plugins>
